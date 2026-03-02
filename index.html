@@ -371,7 +371,6 @@
     ============================================================ */
     #problema {
       padding: var(--section-py) 0;
-      background: var(--color-card);
     }
 
     .section-header {
@@ -454,52 +453,8 @@
       background: var(--color-bg-alt);
     }
 
-    .timeline {
-      max-width: 660px;
-      margin-inline: auto;
-      position: relative;
-    }
-
-    .timeline-step {
-      display: flex;
-      gap: 24px;
-      margin-bottom: 48px;
-      position: relative;
-    }
-    .timeline-step:last-child { margin-bottom: 0; }
-
-    .step-icon-wrap {
-      flex-shrink: 0;
-      width: 64px; height: 64px;
-      border-radius: 18px;
-      background: rgba(26,115,232,.1);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.6rem;
-      position: relative;
-      z-index: 1;
-      transition: background .3s ease, transform .3s ease;
-    }
-    .timeline-step:hover .step-icon-wrap {
-      background: rgba(26,115,232,.18);
-      transform: scale(1.06);
-    }
-
-    .step-content { padding-top: 8px; }
-    .step-content h3 {
-      font-size: 1.15rem;
-      font-weight: 700;
-      margin-bottom: 6px;
-    }
-    .step-content p {
-      color: var(--color-text-muted);
-      font-size: .95rem;
-      line-height: 1.7;
-    }
-
     /* ============================================================
-       [3] FLOW STEPS — redesign
+       [3] FLOW STEPS
     ============================================================ */
     .flow-steps {
       max-width: 680px;
@@ -652,7 +607,6 @@
     ============================================================ */
     #privacidade {
       padding: var(--section-py) 0;
-      background: var(--color-card);
     }
 
     .privacy-inner {
@@ -697,7 +651,6 @@
     ============================================================ */
     #tecnologia {
       padding: var(--section-py) 0;
-      background: var(--color-bg-alt);
     }
 
     .tech-grid {
@@ -778,7 +731,6 @@
     ============================================================ */
     #apoio {
       padding: var(--section-py) 0;
-      background: var(--color-card);
     }
 
     .support-box {
@@ -1270,7 +1222,7 @@
     <!-- ============================================================
          [5] PRIVACIDADE — Destaque com borda verde
     ============================================================ -->
-    <section id="privacidade" aria-label="Privacidade e proteção de dados">
+    <section id="privacidade" class="section-white" aria-label="Privacidade e proteção de dados">
       <div class="container">
 
         <div class="privacy-inner reveal">
@@ -1325,7 +1277,7 @@
     <!-- ============================================================
          [6] TECNOLOGIA — Camadas de detecção + Pilares técnicos
     ============================================================ -->
-    <section id="tecnologia" class="section-white" aria-label="Tecnologia do AntiBet Alerta">
+    <section id="tecnologia" class="section-alt" aria-label="Tecnologia do AntiBet Alerta">
       <div class="container">
 
         <div class="section-header reveal">
@@ -1485,7 +1437,7 @@
     <!-- ============================================================
          [7] APOIO AO USUÁRIO — Recursos de ajuda
     ============================================================ -->
-    <section id="apoio" aria-label="Apoio ao usuário e recursos de ajuda">
+    <section id="apoio" class="section-white" aria-label="Apoio ao usuário e recursos de ajuda">
       <div class="container">
 
         <div class="section-header reveal">
