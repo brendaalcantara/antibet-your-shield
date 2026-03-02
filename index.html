@@ -19,10 +19,10 @@
   <meta name="twitter:description" content="Ferramenta gratuita que detecta acessos a sites de apostas no seu celular e te dá 10 segundos para reconsiderar." />
   <meta name="twitter:image" content="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxMjAwIiB5Mj0iNjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFBNjZDOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNEMjM3MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZykiLz48dGV4dCB4PSI2MDAiIHk9IjI2MCIgZm9udC1mYW1pbHk9IkludGVyLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNzIiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlZvY8OqIHRlbSBvIHBvZGVyIGRlIHBhcmFyLjwvdGV4dD48dGV4dCB4PSI2MDAiIHk9IjM0MCIgZm9udC1mYW1pbHk9IkludGVyLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QW50aUJldCBBbGVydGEgLS0gRmVycmFtZW50YSBkZSBTYcO6ZGUgUMO6YmxpY2E8L3RleHQ+PC9zdmc+" />
 
-  <!-- Favicon e ícone de URL — logo oficial SVG inline -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231B2A4A'/%3E%3Cpath d='M50 15 L76 26 L76 52 C76 65 64 76 50 82 C36 76 24 65 24 52 L24 26 Z' fill='white'/%3E%3Cpath d='M37 50 L45 59 L63 40' stroke='%231B2A4A' stroke-width='7' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
-  <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231B2A4A'/%3E%3Cpath d='M50 15 L76 26 L76 52 C76 65 64 76 50 82 C36 76 24 65 24 52 L24 26 Z' fill='white'/%3E%3Cpath d='M37 50 L45 59 L63 40' stroke='%231B2A4A' stroke-width='7' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
-  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231B2A4A'/%3E%3Cpath d='M50 15 L76 26 L76 52 C76 65 64 76 50 82 C36 76 24 65 24 52 L24 26 Z' fill='white'/%3E%3Cpath d='M37 50 L45 59 L63 40' stroke='%231B2A4A' stroke-width='7' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
+  <!-- Favicon e ícone de URL — logo oficial -->
+  <link rel="icon" type="image/png" href="antibet-your-shield/icon.png" />
+  <link rel="shortcut icon" type="image/png" href="antibet-your-shield/icon.png" />
+  <link rel="apple-touch-icon" href="antibet-your-shield/icon.png" />
 
   <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -477,23 +477,6 @@
       transform: translateY(-2px);
     }
 
-    /* Numbered badge */
-    .step-num {
-      flex-shrink: 0;
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background: var(--color-primary);
-      color: #fff;
-      font-size: 1.1rem;
-      font-weight: 800;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      letter-spacing: -0.03em;
-      box-shadow: 0 4px 12px rgba(26,115,232,.3);
-    }
-
     .step-body { flex: 1; }
 
     .step-header {
@@ -511,51 +494,11 @@
       font-weight: 700;
       letter-spacing: -0.01em;
     }
-    .step-tag {
-      margin-left: auto;
-      font-size: .68rem;
-      font-weight: 600;
-      padding: 3px 9px;
-      border-radius: var(--radius-full);
-      letter-spacing: .04em;
-      text-transform: uppercase;
-      white-space: nowrap;
-    }
-    .step-tag-blue   { background: rgba(26,115,232,.1);  color: #1A73E8; }
-    .step-tag-purple { background: rgba(103,58,183,.1);  color: #673AB7; }
-    .step-tag-green  { background: rgba(52,168,83,.12);  color: #2E7D32; }
-    .step-tag-amber  { background: rgba(251,188,4,.18);  color: #B45309; }
-    .step-tag-teal   { background: rgba(0,150,136,.12);  color: #00796B; }
-
     .step-desc {
       font-size: .9rem;
       color: var(--color-text-muted);
       line-height: 1.7;
       margin-bottom: 10px;
-    }
-
-    .step-result {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-size: .78rem;
-      font-weight: 600;
-      color: var(--color-text-muted);
-      background: var(--color-bg);
-      border: 1px solid var(--color-border);
-      border-radius: var(--radius-full);
-      padding: 4px 12px;
-    }
-    .step-result svg { color: var(--color-secondary); }
-
-    /* Connector arrow between steps */
-    .step-connector {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 36px;
-      color: var(--color-primary);
-      opacity: .4;
     }
 
     /* ============================================================
@@ -928,11 +871,7 @@
     <div class="nav-inner">
       <a href="#hero" class="nav-logo" aria-label="AntiBet Alerta — início">
         <div class="nav-logo-icon" aria-hidden="true">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
-            <rect width="100" height="100" rx="22" fill="#1B2A4A"/>
-            <path d="M50 15 L76 26 L76 52 C76 65 64 76 50 82 C36 76 24 65 24 52 L24 26 Z" fill="white"/>
-            <path d="M37 50 L45 59 L63 40" stroke="#1B2A4A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          </svg>
+          <img src="antibet-your-shield/icon.png" width="32" height="32" alt="" style="border-radius:8px;display:block;" />
         </div>
         AntiBet Alerta
       </a>
@@ -1023,7 +962,7 @@
           <article class="stat-card reveal reveal-d2">
             <span class="stat-icon" aria-hidden="true">🧠</span>
             <span class="stat-value mono" data-counter="11" data-prefix="~" data-suffix="&nbsp;milhões">~0&nbsp;milhões</span>
-            <p>de brasileiros apostam de forma que coloca sua saúde e finanças em risco (LENAD III — Unifesp / FAPESP, 2024)</p>
+            <p>de brasileiros com comportamento compulsivo de apostas comprometendo saúde e finanças (LENAD III — Unifesp / FAPESP, 2024)</p>
           </article>
 
           <article class="stat-card reveal reveal-d3">
@@ -1058,108 +997,53 @@
 
         <div class="flow-steps">
 
-          <!-- Passo 1 -->
           <div class="flow-step reveal reveal-d1">
-            <div class="step-num" aria-hidden="true">1</div>
             <div class="step-body">
               <div class="step-header">
                 <span class="step-emoji" aria-hidden="true">🔍</span>
                 <span class="step-title">Detecta</span>
-                <span class="step-tag step-tag-blue">Gatilho</span>
               </div>
-              <p class="step-desc">Você abre o Chrome. O AntiBet lê a barra de endereço — e só ela. Nada mais é acessado no seu celular.</p>
-              <span class="step-result">
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="12" height="12"><path d="M13 3 7 9 4 6"/><circle cx="8" cy="8" r="6"/></svg>
-                Site de apostas identificado
-              </span>
+              <p class="step-desc">Você acessa um site pelo Chrome, Firefox ou qualquer app com browser embutido. O AntiBet lê apenas o domínio — nada mais é acessado.</p>
             </div>
           </div>
 
-          <!-- Conector -->
-          <div class="step-connector" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-          </div>
-
-          <!-- Passo 2 -->
           <div class="flow-step reveal reveal-d2">
-            <div class="step-num" aria-hidden="true" style="background:#673AB7; box-shadow:0 4px 12px rgba(103,58,183,.3)">2</div>
             <div class="step-body">
               <div class="step-header">
                 <span class="step-emoji" aria-hidden="true">⏱️</span>
                 <span class="step-title">Pausa</span>
-                <span class="step-tag step-tag-purple">Intervenção</span>
               </div>
               <p class="step-desc">Uma tela de intervenção aparece com contagem regressiva de 10 segundos. Técnica de <em>urge surfing</em> da psicologia comportamental (TCC e ACT).</p>
-              <span class="step-result">
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="12" height="12"><circle cx="8" cy="8" r="6"/><path d="M8 5v3l2 2"/></svg>
-                10 segundos para reconsiderar
-              </span>
             </div>
           </div>
 
-          <!-- Conector -->
-          <div class="step-connector" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-          </div>
-
-          <!-- Passo 3 -->
           <div class="flow-step reveal reveal-d3">
-            <div class="step-num" aria-hidden="true" style="background:#34A853; box-shadow:0 4px 12px rgba(52,168,83,.3)">3</div>
             <div class="step-body">
               <div class="step-header">
                 <span class="step-emoji" aria-hidden="true">💪</span>
                 <span class="step-title">Decide</span>
-                <span class="step-tag step-tag-green">Escolha sua</span>
               </div>
               <p class="step-desc">Você pode fechar, se auto-bloquear por 1 hora ou continuar. A escolha é sempre sua — o app não bloqueia nada sem o seu comando.</p>
-              <span class="step-result">
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="12" height="12"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
-                Fechar · Bloquear 1h · Continuar
-              </span>
             </div>
           </div>
 
-          <!-- Conector -->
-          <div class="step-connector" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-          </div>
-
-          <!-- Passo 4 -->
           <div class="flow-step reveal reveal-d4">
-            <div class="step-num" aria-hidden="true" style="background:#F59E0B; box-shadow:0 4px 12px rgba(245,158,11,.3)">4</div>
             <div class="step-body">
               <div class="step-header">
                 <span class="step-emoji" aria-hidden="true">📧</span>
                 <span class="step-title">Alerta</span>
-                <span class="step-tag step-tag-amber">Registro</span>
               </div>
-              <p class="step-desc">Você recebe um e-mail registrando o horário do acesso. Sem julgamento. Só transparência com você mesmo.</p>
-              <span class="step-result">
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="12" height="12"><rect x="2" y="4" width="12" height="9" rx="1"/><path d="M2 5l6 5 6-5"/></svg>
-                E-mail com horário enviado para você
-              </span>
+              <p class="step-desc">Você recebe um e-mail registrando o horário. Sem julgamento. Só transparência com você mesmo.</p>
             </div>
           </div>
 
-          <!-- Conector -->
-          <div class="step-connector" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-          </div>
-
-          <!-- Passo 5 -->
           <div class="flow-step reveal reveal-d5">
-            <div class="step-num" aria-hidden="true" style="background:#00796B; box-shadow:0 4px 12px rgba(0,121,107,.3)">5</div>
             <div class="step-body">
               <div class="step-header">
                 <span class="step-emoji" aria-hidden="true">🤝</span>
                 <span class="step-title">Apoio</span>
-                <span class="step-tag step-tag-teal">Opcional</span>
               </div>
-              <p class="step-desc">Opcionalmente, um parceiro de confiança também é notificado. <em>Accountability</em> real, sem vigilância. Você controla quem recebe.</p>
-              <span class="step-result">
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="12" height="12"><path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM3 14a5 5 0 0 1 10 0"/></svg>
-                Parceiro notificado por e-mail
-              </span>
+              <p class="step-desc">Opcionalmente, um parceiro de confiança também é notificado. <em>Accountability</em> real, sem vigilância.</p>
             </div>
           </div>
 
@@ -1182,7 +1066,7 @@
           <article class="feature-card reveal reveal-d1">
             <span class="feature-icon" aria-hidden="true">🛡️</span>
             <h3>Detecção inteligente</h3>
-            <p>Múltiplas camadas de análise identificam sites de apostas mesmo quando usam domínios disfarçados ou redirecionamentos. Rápido e preciso, sem consumir dados ou bateria de forma significativa.</p>
+            <p>Múltiplas camadas de análise identificam sites de apostas mesmo quando usam domínios disfarçados ou redirecionamentos. Funciona em navegadores e em apps com browser embutido (Instagram, TikTok e similares). Rápido e preciso, sem consumir dados ou bateria de forma significativa.</p>
           </article>
 
           <article class="feature-card reveal reveal-d2">
@@ -1277,7 +1161,7 @@
     <!-- ============================================================
          [6] TECNOLOGIA — Camadas de detecção + Pilares técnicos
     ============================================================ -->
-    <section id="tecnologia" class="section-alt" aria-label="Tecnologia do AntiBet Alerta">
+    <section id="tecnologia" class="section-white" aria-label="Tecnologia do AntiBet Alerta">
       <div class="container">
 
         <div class="section-header reveal">
@@ -1293,7 +1177,7 @@
 
             <div class="layer-row">
               <div class="layer-meta">
-                <span class="layer-name">Lista negra de sites conhecidos</span>
+                <span class="layer-name">Lista de sites de apostas conhecidos</span>
                 <span class="layer-latency">~instantâneo</span>
               </div>
               <div class="layer-track"><div class="layer-bar" data-width="7"></div></div>
@@ -1437,7 +1321,7 @@
     <!-- ============================================================
          [7] APOIO AO USUÁRIO — Recursos de ajuda
     ============================================================ -->
-    <section id="apoio" class="section-white" aria-label="Apoio ao usuário e recursos de ajuda">
+    <section id="apoio" class="section-alt" aria-label="Apoio ao usuário e recursos de ajuda">
       <div class="container">
 
         <div class="section-header reveal">
@@ -1511,11 +1395,7 @@
         <!-- Logo -->
         <div class="footer-logo" aria-label="AntiBet Alerta">
           <div class="footer-logo-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="40" height="40">
-              <rect width="100" height="100" rx="22" fill="#1B2A4A"/>
-              <path d="M50 15 L76 26 L76 52 C76 65 64 76 50 82 C36 76 24 65 24 52 L24 26 Z" fill="white"/>
-              <path d="M37 50 L45 59 L63 40" stroke="#1B2A4A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-            </svg>
+            <img src="antibet-your-shield/icon.png" width="40" height="40" alt="" style="border-radius:10px;display:block;" />
           </div>
           <span class="footer-logo-name">AntiBet Alerta</span>
         </div>
