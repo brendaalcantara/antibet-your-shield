@@ -305,59 +305,29 @@
     .phone-screen {
       width: 100%;
       height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 24px 20px;
-      text-align: center;
-    }
-
-    /* Countdown ring */
-    .countdown-ring {
       position: relative;
-      width: 120px;
-      height: 120px;
-      margin-bottom: 20px;
+      overflow: hidden;
     }
-    .countdown-ring svg { width: 100%; height: 100%; }
-    .countdown-number {
+    .phone-screen img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    /* Overlay para substituir betano.com por betexemplo.com */
+    .phone-screen-domain {
       position: absolute;
-      inset: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 3rem;
-      font-weight: 800;
-      color: #fff;
-      font-family: 'Courier New', monospace;
-    }
-
-    .phone-message {
-      color: rgba(255,255,255,.88);
-      font-size: .82rem;
-      line-height: 1.55;
-      max-width: 170px;
-      margin-bottom: 20px;
-    }
-
-    .phone-actions {
-      display: flex;
-      gap: 8px;
-    }
-    .phone-btn {
-      padding: 7px 14px;
-      border-radius: var(--radius-full);
-      font-size: .72rem;
+      top: 32%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      padding: 2px 10px;
+      border-radius: 4px;
+      font-size: .7rem;
       font-weight: 600;
-    }
-    .phone-btn-close {
-      background: var(--color-secondary);
-      color: #fff;
-    }
-    .phone-btn-block {
-      border: 1px solid rgba(255,255,255,.28);
-      color: rgba(255,255,255,.7);
+      color: #F59E0B;
+      white-space: nowrap;
+      box-shadow: 0 0 0 2px rgba(255,255,255,.9);
     }
 
     /* Float animation */
@@ -974,33 +944,12 @@
             </div>
           </div>
 
-          <!-- Mockup de celular Android (100% CSS/SVG) -->
+          <!-- Mockup de celular Android com screenshot real -->
           <div class="phone-wrap" aria-hidden="true">
             <div class="phone" role="img" aria-label="Tela de intervenção do app com contagem regressiva">
               <div class="phone-screen">
-                <!-- Contador regressivo animado em SVG -->
-                <div class="countdown-ring">
-                  <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="60" cy="60" r="52" stroke="rgba(26,115,232,.25)" stroke-width="4"/>
-                    <circle
-                      cx="60" cy="60" r="52"
-                      stroke="#34A853"
-                      stroke-width="5"
-                      stroke-linecap="round"
-                      stroke-dasharray="327"
-                      stroke-dashoffset="82"
-                      transform="rotate(-90 60 60)"
-                    />
-                  </svg>
-                  <div class="countdown-number">8</div>
-                </div>
-                <p class="phone-message">
-                  Você é mais forte<br>que esse impulso.
-                </p>
-                <div class="phone-actions">
-                  <span class="phone-btn phone-btn-close">Fechar</span>
-                  <span class="phone-btn phone-btn-block">Bloquear 1h</span>
-                </div>
+                <img src="mockup.jpeg" alt="" />
+                <span class="phone-screen-domain">betexemplo.com</span>
               </div>
             </div>
           </div>
