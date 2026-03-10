@@ -458,11 +458,26 @@
     }
 
     /* ============================================================
-       [3] FLOW STEPS
+       [3] FLOW STEPS — Timeline com continuidade visual
     ============================================================ */
     .flow-steps {
-      max-width: 680px;
+      max-width: 720px;
       margin-inline: auto;
+      position: relative;
+      padding-left: 48px;
+    }
+
+    /* Linha vertical da timeline */
+    .flow-steps::before {
+      content: '';
+      position: absolute;
+      left: 11px;
+      top: 24px;
+      bottom: 24px;
+      width: 2px;
+      background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+      border-radius: 1px;
+      opacity: 0.5;
     }
 
     .flow-step {
@@ -475,11 +490,38 @@
       padding: 24px 24px 24px 20px;
       box-shadow: var(--shadow-sm);
       transition: box-shadow .3s ease, transform .3s ease;
+      position: relative;
+      margin-bottom: 20px;
     }
+    .flow-step:last-child { margin-bottom: 0; }
     .flow-step:hover {
       box-shadow: var(--shadow-md);
       transform: translateY(-2px);
     }
+
+    /* Número do passo na timeline */
+    .flow-step::before {
+      content: attr(data-step);
+      position: absolute;
+      left: -48px;
+      top: 24px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      color: #fff;
+      font-size: .8rem;
+      font-weight: 800;
+      line-height: 28px;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      box-shadow: 0 2px 8px rgba(26,115,232,.35);
+      z-index: 1;
+    }
+    .flow-step:nth-child(2)::before { background: #673AB7; box-shadow: 0 2px 8px rgba(103,58,183,.35); }
+    .flow-step:nth-child(3)::before { background: var(--color-secondary); box-shadow: 0 2px 8px rgba(52,168,83,.35); }
+    .flow-step:nth-child(4)::before { background: #F59E0B; box-shadow: 0 2px 8px rgba(245,158,11,.35); }
+    .flow-step:nth-child(5)::before { background: #00796B; box-shadow: 0 2px 8px rgba(0,121,107,.35); }
 
     .step-body { flex: 1; }
 
@@ -1024,7 +1066,7 @@
 
         <div class="flow-steps">
 
-          <div class="flow-step reveal reveal-d1">
+          <div class="flow-step reveal reveal-d1" data-step="1">
             <div class="step-body">
               <div class="step-header">
                 <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span>
@@ -1034,7 +1076,7 @@
             </div>
           </div>
 
-          <div class="flow-step reveal reveal-d2">
+          <div class="flow-step reveal reveal-d2" data-step="2">
             <div class="step-body">
               <div class="step-header">
                 <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
@@ -1044,17 +1086,17 @@
             </div>
           </div>
 
-          <div class="flow-step reveal reveal-d3">
+          <div class="flow-step reveal reveal-d3" data-step="3">
             <div class="step-body">
               <div class="step-header">
-                <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v6l4 2"/><path d="M5 14v.5a7 7 0 0 0 14 0V14"/><path d="M12 11v3"/></svg></span>
+                <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></span>
                 <span class="step-title">Decide</span>
               </div>
               <p class="step-desc">Você pode fechar, se auto-bloquear por 1 hora ou continuar. A escolha é sempre sua — o app não bloqueia nada sem o seu comando.</p>
             </div>
           </div>
 
-          <div class="flow-step reveal reveal-d4">
+          <div class="flow-step reveal reveal-d4" data-step="4">
             <div class="step-body">
               <div class="step-header">
                 <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span>
@@ -1064,10 +1106,10 @@
             </div>
           </div>
 
-          <div class="flow-step reveal reveal-d5">
+          <div class="flow-step reveal reveal-d5" data-step="5">
             <div class="step-body">
               <div class="step-header">
-                <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A3.5 3.5 0 0 0 8.5 8c-.8 0-1.5.3-2 .8"/><path d="M9 18h.01"/><path d="M15 22v-4a3 3 0 0 0-6 0v4"/><path d="M7.5 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A3.5 3.5 0 0 0 1 8c-.8 0-1.5.3-2 .8"/></svg></span>
+                <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>
                 <span class="step-title">Apoio</span>
               </div>
               <p class="step-desc">Opcionalmente, um parceiro de confiança também é notificado. <em>Accountability</em> real, sem vigilância.</p>
