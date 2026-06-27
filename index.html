@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AntiBet Alerta — Bloqueie apostas antes que o impulso avance.</title>
+  <title>AntiBet Alerta: Bloqueie apostas antes que o impulso avance.</title>
   <meta name="description" content="Ferramenta gratuita de saúde pública que detecta acessos a sites de apostas, intervém em tempo real e bloqueia o acesso quando necessário. Privado, sem anúncios, para sempre." />
   <meta name="author" content="AntiBet Alerta" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="AntiBet Alerta — Bloqueie apostas antes que o impulso avance." />
+  <meta property="og:title" content="AntiBet Alerta: Bloqueie apostas antes que o impulso avance." />
   <meta property="og:description" content="Ferramenta gratuita que detecta acessos a sites de apostas no seu celular, intervém em tempo real e bloqueia o acesso quando necessário." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxMjAwIiB5Mj0iNjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFBNjZDOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNEMjM3MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZykiLz48dGV4dCB4PSI2MDAiIHk9IjI2MCIgZm9udC1mYW1pbHk9IkludGVyLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNzIiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlZvY8OqIHRlbSBvIHBvZGVyIGRlIHBhcmFyLjwvdGV4dD48dGV4dCB4PSI2MDAiIHk9IjM0MCIgZm9udC1mYW1pbHk9IkludGVyLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QW50aUJldCBBbGVydGEgLS0gRmVycmFtZW50YSBkZSBTYcO6ZGUgUMO6YmxpY2E8L3RleHQ+PC9zdmc+" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="AntiBet Alerta — Bloqueie apostas antes que o impulso avance." />
+  <meta name="twitter:title" content="AntiBet Alerta: Bloqueie apostas antes que o impulso avance." />
   <meta name="twitter:description" content="Ferramenta gratuita que detecta acessos a sites de apostas no seu celular, intervém em tempo real e bloqueia o acesso quando necessário." />
   <meta name="twitter:image" content="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MzAiIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxMjAwIiB5Mj0iNjMwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFBNjZDOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNEMjM3MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZykiLz48dGV4dCB4PSI2MDAiIHk9IjI2MCIgZm9udC1mYW1pbHk9IkludGVyLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNzIiIGZvbnQtd2VpZ2h0PSI4MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPlZvY8OqIHRlbSBvIHBvZGVyIGRlIHBhcmFyLjwvdGV4dD48dGV4dCB4PSI2MDAiIHk9IjM0MCIgZm9udC1mYW1pbHk9IkludGVyLHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMzAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QW50aUJldCBBbGVydGEgLS0gRmVycmFtZW50YSBkZSBTYcO6ZGUgUMO6YmxpY2E8L3RleHQ+PC9zdmc+" />
 
-  <!-- Favicon e ícone de URL — logo oficial SVG inline -->
+  <!-- Favicon e ícone de URL: logo oficial SVG inline -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231B2A4A'/%3E%3Cpath d='M50 15 L76 26 L76 52 C76 65 64 76 50 82 C36 76 24 65 24 52 L24 26 Z' fill='white'/%3E%3Cpath d='M37 50 L45 59 L63 40' stroke='%231B2A4A' stroke-width='7' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
   <link rel="shortcut icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231B2A4A'/%3E%3Cpath d='M50 15 L76 26 L76 52 C76 65 64 76 50 82 C36 76 24 65 24 52 L24 26 Z' fill='white'/%3E%3Cpath d='M37 50 L45 59 L63 40' stroke='%231B2A4A' stroke-width='7' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
   <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231B2A4A'/%3E%3Cpath d='M50 15 L76 26 L76 52 C76 65 64 76 50 82 C36 76 24 65 24 52 L24 26 Z' fill='white'/%3E%3Cpath d='M37 50 L45 59 L63 40' stroke='%231B2A4A' stroke-width='7' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
@@ -31,7 +31,7 @@
 
   <style>
     /* ============================================================
-       CSS CUSTOM PROPERTIES — Design tokens / Paleta
+       CSS CUSTOM PROPERTIES: Design tokens / Paleta
     ============================================================ */
     :root {
       --color-primary:   #1A73E8;
@@ -459,7 +459,7 @@
     }
 
     /* ============================================================
-       [3] FLOW STEPS — Timeline com continuidade visual
+       [3] FLOW STEPS: Timeline com continuidade visual
     ============================================================ */
     .flow-steps {
       max-width: 720px;
@@ -989,7 +989,7 @@
     }
 
     /* ============================================================
-       RESPONSIVE — tablet (640px+)
+       RESPONSIVE: tablet (640px+)
     ============================================================ */
     @media (min-width: 640px) {
       .hero-actions { flex-direction: row; justify-content: center; }
@@ -1000,7 +1000,7 @@
     }
 
     /* ============================================================
-       RESPONSIVE — desktop (1024px+)
+       RESPONSIVE: desktop (1024px+)
     ============================================================ */
     @media (min-width: 1024px) {
       .hero-grid {
@@ -1034,11 +1034,11 @@
 <body>
 
   <!-- ============================================================
-       NAV — Barra de navegação superior
+       NAV: Barra de navegação superior
   ============================================================ -->
   <nav class="site-nav" aria-label="Navegação principal">
     <div class="nav-inner">
-      <a href="#hero" class="nav-logo" aria-label="AntiBet Alerta — início">
+      <a href="#hero" class="nav-logo" aria-label="AntiBet Alerta: início">
         <div class="nav-logo-icon" aria-hidden="true">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
             <rect width="100" height="100" rx="22" fill="#1B2A4A"/>
@@ -1055,7 +1055,7 @@
   <main>
 
     <!-- ============================================================
-         [1] HERO — Apresentação principal
+         [1] HERO: Apresentação principal
     ============================================================ -->
     <section id="hero" aria-label="Apresentação do AntiBet Alerta">
       <div class="container">
@@ -1107,7 +1107,7 @@
     </section>
 
     <!-- ============================================================
-         [2] PROBLEMA — O Brasil e as apostas
+         [2] PROBLEMA: O Brasil e as apostas
     ============================================================ -->
     <section id="problema" class="section-white" aria-label="O problema das apostas no Brasil">
       <div class="container">
@@ -1128,7 +1128,7 @@
           <article class="stat-card reveal reveal-d2">
             <span class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"/></svg></span>
             <span class="stat-value mono" data-counter="11" data-prefix="~" data-suffix="&nbsp;milhões">~0&nbsp;milhões</span>
-            <p>de brasileiros com comportamento compulsivo de apostas comprometendo saúde e finanças (LENAD III — Unifesp / FAPESP, 2024)</p>
+            <p>de brasileiros com comportamento compulsivo de apostas comprometendo saúde e finanças (LENAD III, Unifesp / FAPESP, 2024)</p>
           </article>
 
           <article class="stat-card reveal reveal-d3">
@@ -1139,7 +1139,7 @@
         </div>
 
         <p class="problem-quote reveal reveal-d4">
-          "Sentir o impulso de apostar não é fraqueza — é o seu cérebro respondendo
+          "Sentir o impulso de apostar não é fraqueza; é o seu cérebro respondendo
           a um sistema projetado para isso. O que importa é ter uma intervenção antes que o acesso vire aposta."
         </p>
 
@@ -1152,13 +1152,13 @@
     </section>
 
     <!-- ============================================================
-         [3] COMO FUNCIONA — Timeline de 5 passos
+         [3] COMO FUNCIONA: Timeline de 5 passos
     ============================================================ -->
     <section id="como-funciona" class="section-alt" aria-label="Como funciona o AntiBet Alerta">
       <div class="container">
 
         <div class="section-header reveal">
-          <h2>Do impulso ao controle — em tempo real.</h2>
+          <h2>Do impulso ao controle, em tempo real.</h2>
         </div>
 
         <div class="flow-steps">
@@ -1169,7 +1169,7 @@
                 <span class="step-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span>
                 <span class="step-title">Detecta</span>
               </div>
-              <p class="step-desc">Você acessa um site pelo Chrome, Firefox ou qualquer app com browser embutido. O AntiBet lê apenas o domínio — nada mais é acessado.</p>
+              <p class="step-desc">Você acessa um site pelo Chrome, Firefox ou qualquer app com browser embutido. O AntiBet lê apenas o domínio; nada mais é acessado.</p>
             </div>
           </div>
 
@@ -1219,7 +1219,7 @@
     </section>
 
     <!-- ============================================================
-         [4] FUNCIONALIDADES — Grid 2×3 de feature cards
+         [4] FUNCIONALIDADES: Grid 2×3 de feature cards
     ============================================================ -->
     <section id="funcionalidades" class="section-white" aria-label="Funcionalidades do AntiBet Alerta">
       <div class="container">
@@ -1270,7 +1270,7 @@
     </section>
 
     <!-- ============================================================
-         [5] BLOQUEIO — Escopo e compatibilidade
+         [5] BLOQUEIO: Escopo e compatibilidade
     ============================================================ -->
     <section id="bloqueio" aria-label="Como o bloqueio funciona">
       <div class="container">
@@ -1329,7 +1329,7 @@
     </section>
 
     <!-- ============================================================
-         [6] PRIVACIDADE — Destaque com borda verde
+         [6] PRIVACIDADE: Destaque com borda verde
     ============================================================ -->
     <section id="privacidade" class="section-white" aria-label="Privacidade e proteção de dados">
       <div class="container">
@@ -1343,7 +1343,7 @@
               <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <polyline points="20 6 9 17 4 12"/>
               </svg>
-              <span>Armazena apenas o domínio do site (ex: betexemplo.com) — nunca a URL completa, nunca o que você digitou.</span>
+              <span>Armazena apenas o domínio do site (ex: betexemplo.com), nunca a URL completa, nunca o que você digitou.</span>
             </li>
             <li class="reveal reveal-d2">
               <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -1367,7 +1367,7 @@
               <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <polyline points="20 6 9 17 4 12"/>
               </svg>
-              <span>Consentimento granular — você escolhe o que ativar (LGPD Art. 8°)</span>
+              <span>Consentimento granular: você escolhe o que ativar (LGPD Art. 8°)</span>
             </li>
             <li class="reveal reveal-d6">
               <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -1383,14 +1383,14 @@
             </li>
           </ul>
 
-          <p class="privacy-highlight reveal reveal-d6">"Somos uma ferramenta de saúde — não uma empresa de dados."</p>
+          <p class="privacy-highlight reveal reveal-d6">"Somos uma ferramenta de saúde, não uma empresa de dados."</p>
         </div>
 
       </div>
     </section>
 
     <!-- ============================================================
-         [6] TECNOLOGIA — Camadas de detecção + Pilares técnicos
+         [6] TECNOLOGIA: Camadas de detecção + Pilares técnicos
     ============================================================ -->
     <section id="tecnologia" class="section-white" aria-label="Tecnologia do AntiBet Alerta">
       <div class="container">
@@ -1486,7 +1486,7 @@
                 </div>
                 <div class="pillar-content">
                   <h4>App nativo Android</h4>
-                  <p>Sem frameworks intermediários — desempenho máximo e acesso direto às APIs de acessibilidade do sistema.</p>
+                  <p>Sem frameworks intermediários: desempenho máximo e acesso direto às APIs de acessibilidade do sistema.</p>
                 </div>
               </div>
 
@@ -1546,7 +1546,7 @@
                 </div>
                 <div class="pillar-content">
                   <h4>Material Design 3</h4>
-                  <p>Interface seguindo as diretrizes oficiais do Google para Android — familiar, acessível e consistente.</p>
+                  <p>Interface seguindo as diretrizes oficiais do Google para Android: familiar, acessível e consistente.</p>
                 </div>
               </div>
 
@@ -1558,7 +1558,7 @@
     </section>
 
     <!-- ============================================================
-         [7] APOIO AO USUÁRIO — Recursos de ajuda
+         [7] APOIO AO USUÁRIO: Recursos de ajuda
     ============================================================ -->
     <section id="apoio" class="section-alt" aria-label="Apoio ao usuário e recursos de ajuda">
       <div class="container">
@@ -1573,7 +1573,7 @@
           <div class="support-resource">
             <span class="res-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
             <div>
-              <h4>CVV — 188</h4>
+              <h4>CVV: 188</h4>
               <p>24 horas, gratuito, ligação e chat</p>
             </div>
           </div>
@@ -1581,7 +1581,7 @@
           <div class="support-resource">
             <span class="res-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/><path d="M9 18v.01"/></svg></span>
             <div>
-              <h4>CAPS AD — Centro de Atenção Psicossocial Álcool e Drogas</h4>
+              <h4>CAPS AD: Centro de Atenção Psicossocial Álcool e Drogas</h4>
               <p>Procure a unidade da sua cidade em: <a href="https://caps.saude.gov.br" target="_blank" rel="noopener noreferrer">caps.saude.gov.br</a></p>
             </div>
           </div>
@@ -1590,13 +1590,13 @@
             <span class="res-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
             <div>
               <h4>Linha de Cuidado do Ministério da Saúde</h4>
-              <p>Para Problemas com Apostas — lançada em 2025</p>
+              <p>Para Problemas com Apostas, lançada em 2025</p>
             </div>
           </div>
         </div>
 
         <p class="support-disclaimer reveal reveal-d2">
-          O AntiBet Alerta é uma ferramenta de suporte digital — não substitui acompanhamento
+          O AntiBet Alerta é uma ferramenta de suporte digital, não substitui acompanhamento
           profissional de saúde mental. Se o comportamento está afetando sua vida, procure um especialista.
         </p>
 
@@ -1604,7 +1604,7 @@
     </section>
 
     <!-- ============================================================
-         [9] FAQ — Perguntas frequentes
+         [9] FAQ: Perguntas frequentes
     ============================================================ -->
     <section id="faq" aria-label="Perguntas frequentes sobre o AntiBet Alerta">
       <div class="container">
@@ -1649,7 +1649,7 @@
     </section>
 
     <!-- ============================================================
-         [10] DOWNLOAD / CTA FINAL — Gradiente igual ao hero
+         [10] DOWNLOAD / CTA FINAL: Gradiente igual ao hero
     ============================================================ -->
     <section id="download" aria-label="Baixar o AntiBet Alerta">
       <div class="container">
@@ -1671,7 +1671,7 @@
   </main>
 
   <!-- ============================================================
-       [9] FOOTER — Rodapé
+       [9] FOOTER: Rodapé
   ============================================================ -->
   <footer aria-label="Rodapé">
     <div class="container">
@@ -1689,7 +1689,7 @@
           <span class="footer-logo-name">AntiBet Alerta</span>
         </div>
 
-        <p class="footer-tagline">AntiBet Alerta — Tecnologia a serviço da sua proteção.</p>
+        <p class="footer-tagline">AntiBet Alerta: Tecnologia a serviço da sua proteção.</p>
 
         <!-- Links -->
         <div class="footer-links" aria-label="Links do rodapé">
