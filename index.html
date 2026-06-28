@@ -681,6 +681,67 @@
     }
 
     /* ============================================================
+       [6] LAYERED PROTECTION SECTION
+    ============================================================ */
+    #protecao-em-camadas {
+      padding: var(--section-py) 0;
+      background: var(--color-card);
+    }
+
+    .limits-intro {
+      max-width: 800px;
+      margin: 0 auto 40px;
+      text-align: center;
+      color: var(--color-text-muted);
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+    .resource-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      max-width: 920px;
+      margin-inline: auto;
+    }
+
+    .resource-card {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 28px;
+      background: var(--color-bg);
+    }
+    .resource-card h3 {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+    }
+    .resource-card p {
+      color: var(--color-text-muted);
+      font-size: .92rem;
+      line-height: 1.65;
+      margin-bottom: 20px;
+    }
+    .resource-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: auto;
+      color: var(--color-primary);
+      font-size: .9rem;
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .resource-link svg {
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
        [6] PRIVACY SECTION
     ============================================================ */
     #privacidade {
@@ -1015,6 +1076,7 @@
       .stats-grid { grid-template-columns: repeat(3, 1fr); }
       .features-grid { grid-template-columns: repeat(2, 1fr); }
       .compat-grid { grid-template-columns: repeat(2, 1fr); }
+      .resource-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
     /* ============================================================
@@ -1352,7 +1414,45 @@
     </section>
 
     <!-- ============================================================
-         [6] PRIVACIDADE: Destaque com borda verde
+         [6] PROTEÇÃO EM CAMADAS: Limites e recursos complementares
+    ============================================================ -->
+    <section id="protecao-em-camadas" aria-label="Proteção em camadas contra apostas">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <h2>Nenhum app consegue fazer tudo sozinho.</h2>
+          <p class="subtitle">A proteção mais forte combina diferentes barreiras.</p>
+        </div>
+
+        <p class="limits-intro reveal reveal-d1">
+          Queríamos que o AntiBet Alerta fosse suficiente para bloquear todos os caminhos até as apostas, mas sabemos que não é. Sites mudam de domínio, surgem novos aplicativos, anúncios e outras formas de chegar ao usuário. Por isso, o AntiBet Alerta pode e deve ser usado junto com outras ferramentas de bloqueio, autoexclusão e acompanhamento profissional quando necessário.
+        </p>
+
+        <div class="resource-grid">
+          <article class="resource-card reveal reveal-d2">
+            <h3>Gamban</h3>
+            <p>Uma ferramenta complementar de bloqueio que atua em diferentes dispositivos e adota uma abordagem de proteção em camadas contra sites e aplicativos de apostas.</p>
+            <a class="resource-link" href="https://gamban.com/pt-br/" target="_blank" rel="noopener noreferrer">
+              Conhecer o Gamban
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+            </a>
+          </article>
+
+          <article class="resource-card reveal reveal-d3">
+            <h3>Autoexclusão do Governo Federal</h3>
+            <p>A plataforma oficial permite restringir o acesso às casas de apostas federais autorizadas pela Secretaria de Prêmios e Apostas, por prazo determinado ou indeterminado.</p>
+            <a class="resource-link" href="https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/autoexclusao" target="_blank" rel="noopener noreferrer">
+              Acessar a plataforma de autoexclusão
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+            </a>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         [7] PRIVACIDADE: Destaque com borda verde
     ============================================================ -->
     <section id="privacidade" class="section-white" aria-label="Privacidade e proteção de dados">
       <div class="container">
