@@ -651,15 +651,33 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 12px;
-      margin-top: 22px;
+    }
+    .compatibility-band {
+      margin-top: 24px;
+      padding: 28px;
+      background: var(--color-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+    }
+    .compatibility-band h3 {
+      font-size: 1.1rem;
+      margin-bottom: 18px;
+      text-align: center;
     }
     .compat-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 58px;
       border: 1px solid var(--color-border);
       border-radius: var(--radius-sm);
       padding: 14px 16px;
       background: var(--color-bg);
       font-size: .9rem;
       font-weight: 600;
+      line-height: 1.4;
+      text-align: center;
     }
 
     /* ============================================================
@@ -1014,6 +1032,7 @@
       .phone-wrap { justify-content: flex-end; }
       .features-grid { grid-template-columns: repeat(3, 1fr); }
       .scope-grid { grid-template-columns: 1fr 1fr; }
+      .compat-grid { grid-template-columns: repeat(4, 1fr); }
       .tech-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
@@ -1298,12 +1317,6 @@
               </li>
             </ul>
 
-            <div class="compat-grid" aria-label="Compatibilidade">
-              <div class="compat-item">Android 7.0 ou superior</div>
-              <div class="compat-item">Chrome, Firefox e similares</div>
-              <div class="compat-item">Browsers embutidos em apps</div>
-              <div class="compat-item">Sem root e sem cadastro obrigatório</div>
-            </div>
           </div>
 
           <div class="scope-panel reveal reveal-d2">
@@ -1322,6 +1335,16 @@
                 <span>Não serve para monitorar outra pessoa. A instalação é confirmada pelo próprio titular do dispositivo.</span>
               </li>
             </ul>
+          </div>
+        </div>
+
+        <div class="compatibility-band reveal reveal-d3" aria-label="Compatibilidade">
+          <h3>Compatibilidade</h3>
+          <div class="compat-grid">
+            <div class="compat-item">Android 7.0 ou superior</div>
+            <div class="compat-item">Chrome, Firefox e similares</div>
+            <div class="compat-item">Browsers embutidos em apps</div>
+            <div class="compat-item">Sem root e sem cadastro obrigatório</div>
           </div>
         </div>
 
