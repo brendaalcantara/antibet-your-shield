@@ -1,0 +1,35 @@
+# OpenAI: busca e recuperação em respostas do ChatGPT
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# OpenAI: treinamento não é necessário para aparecer na busca do ChatGPT
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic: busca e recuperação em respostas do Claude
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+# Anthropic: treinamento não é necessário para aparecer na busca do Claude
+User-agent: ClaudeBot
+Disallow: /
+
+# Google: Pesquisa e recursos generativos baseados no índice
+User-agent: Googlebot
+Allow: /
+
+# Google: controle de uso por Gemini e Grounding com a Pesquisa Google
+User-agent: Google-Extended
+Allow: /
+
+# Demais mecanismos de pesquisa e agentes compatíveis
+User-agent: *
+Allow: /
+
+Sitemap: https://home.antibetalerta.com/sitemap.xml
