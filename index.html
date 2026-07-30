@@ -61,7 +61,7 @@
         "about": { "@id": "https://home.antibetalerta.com/#app" },
         "mainEntity": { "@id": "https://home.antibetalerta.com/#app" },
         "datePublished": "2026-07-17",
-        "dateModified": "2026-07-29",
+        "dateModified": "2026-07-30",
         "inLanguage": "pt-BR"
       },
       {
@@ -100,7 +100,7 @@
         "applicationCategory": "HealthApplication",
         "isAccessibleForFree": true,
         "datePublished": "2026-07-17",
-        "dateModified": "2026-07-29",
+        "dateModified": "2026-07-30",
         "inLanguage": "pt-BR",
         "description": "Aplicativo gratuito para Android que identifica e bloqueia sites de apostas, mantém os dados no próprio celular e permite avisar um parceiro de apoio por e-mail.",
         "image": "https://home.antibetalerta.com/og-image.png",
@@ -533,6 +533,55 @@
       font-weight: 700;
       text-decoration: underline;
       text-underline-offset: 4px;
+    }
+
+    /* ============================================================
+       GUIDE HUB: Guias complementares
+    ============================================================ */
+    #guias {
+      padding: 80px 0;
+      background: var(--color-bg-alt);
+    }
+    .guide-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    .guide-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      min-height: 104px;
+      padding: 22px 24px;
+      background: var(--color-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      box-shadow: var(--shadow-sm);
+      transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+    }
+    .guide-link:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      border-color: rgba(26,115,232,.35);
+    }
+    .guide-link strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--color-text);
+      font-size: 1rem;
+    }
+    .guide-link small {
+      display: block;
+      color: var(--color-text-muted);
+      font-size: .82rem;
+      line-height: 1.5;
+    }
+    .guide-arrow {
+      flex: 0 0 auto;
+      color: var(--color-primary);
+      font-size: 1.4rem;
+      font-weight: 700;
     }
 
     /* ============================================================
@@ -1253,6 +1302,7 @@
       .compat-grid { grid-template-columns: repeat(2, 1fr); }
       .resource-grid { grid-template-columns: repeat(2, 1fr); }
       .app-facts { grid-template-columns: repeat(2, 1fr); }
+      .guide-grid { grid-template-columns: repeat(2, 1fr); }
     }
 
     /* ============================================================
@@ -1686,7 +1736,7 @@
             </li>
           </ul>
 
-          <p class="privacy-highlight reveal reveal-d6">"Somos uma ferramenta de saúde, não uma empresa de dados."</p>
+          <p class="privacy-highlight reveal reveal-d6">"Somos uma ferramenta de proteção, não uma empresa de dados."</p>
         </div>
 
       </div>
@@ -1870,23 +1920,23 @@
             <span class="res-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
             <div>
               <h4>CVV: 188</h4>
-              <p>24 horas, gratuito, ligação e chat</p>
+              <p>Ligações gratuitas 24 horas; chat nos horários informados em <a href="https://cvv.org.br/" target="_blank" rel="noopener noreferrer">cvv.org.br</a></p>
             </div>
           </div>
 
           <div class="support-resource">
             <span class="res-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 12v.01"/><path d="M9 15v.01"/><path d="M9 18v.01"/></svg></span>
             <div>
-              <h4>CAPS AD: Centro de Atenção Psicossocial Álcool e Drogas</h4>
-              <p>Procure a unidade da sua cidade em: <a href="https://caps.saude.gov.br" target="_blank" rel="noopener noreferrer">caps.saude.gov.br</a></p>
+              <h4>UBS e Centros de Atenção Psicossocial</h4>
+              <p>O SUS oferece acolhimento na UBS e atendimento especializado nos CAPS. <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental/nao-aposte-sua-saude" target="_blank" rel="noopener noreferrer">Veja as orientações oficiais</a>.</p>
             </div>
           </div>
 
           <div class="support-resource">
             <span class="res-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
             <div>
-              <h4>Linha de Cuidado do Ministério da Saúde</h4>
-              <p>Para Problemas com Apostas, lançada em 2025</p>
+              <h4>Guia e Linha de Cuidado do Ministério da Saúde</h4>
+              <p>Orientações oficiais para pessoas com problemas relacionados a jogos de apostas, familiares e rede de apoio.</p>
             </div>
           </div>
         </div>
@@ -1937,7 +1987,36 @@
             </div>
           </dl>
 
-          <p class="entity-updated"><time datetime="2026-07-29">Informações revisadas em 29 de julho de 2026.</time></p>
+          <p class="entity-updated"><time datetime="2026-07-30">Informações revisadas em 30 de julho de 2026.</time></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="guias" aria-labelledby="guias-titulo">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 id="guias-titulo">Informação para cada próximo passo.</h2>
+          <p class="subtitle">Guias claros sobre configuração, proteção, apoio e cuidado.</p>
+        </div>
+        <div class="guide-grid">
+          <a class="guide-link reveal reveal-d1" href="./como-configurar-antibet-alerta/">
+            <span><strong>Como configurar o aplicativo</strong><small>Instalação, autorizações e ativação da proteção.</small></span><span class="guide-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="guide-link reveal reveal-d2" href="./parceiro-de-apoio/">
+            <span><strong>Parceiro de apoio</strong><small>Como configurar e combinar uma resposta acolhedora.</small></span><span class="guide-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="guide-link reveal reveal-d3" href="./privacidade-e-seguranca/">
+            <span><strong>Privacidade e segurança</strong><small>O que o app usa, o que não lê e onde os dados ficam.</small></span><span class="guide-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="guide-link reveal reveal-d1" href="./autoexclusao-de-apostas/">
+            <span><strong>Autoexclusão oficial</strong><small>Como solicitar a restrição nas operadoras autorizadas.</small></span><span class="guide-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="guide-link reveal reveal-d2" href="./ajuda-para-parar-de-apostar/">
+            <span><strong>Ajuda para parar de apostar</strong><small>Primeiros passos e canais oficiais de cuidado.</small></span><span class="guide-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="guide-link reveal reveal-d3" href="./perguntas-frequentes/">
+            <span><strong>Perguntas frequentes</strong><small>Respostas diretas antes de instalar ou configurar.</small></span><span class="guide-arrow" aria-hidden="true">→</span>
+          </a>
         </div>
       </div>
     </section>

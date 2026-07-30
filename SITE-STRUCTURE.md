@@ -1,6 +1,6 @@
 # AntiBet Alerta: estrutura semântica do site
 
-Última revisão: 2026-07-29
+Última revisão: 2026-07-30
 
 ## Publicação
 
@@ -9,7 +9,7 @@
 - Idioma: português do Brasil (`pt-BR`)
 - Plataforma do aplicativo: Android 7.0 ou superior
 - Instalação oficial: `https://play.google.com/store/apps/details?id=com.antibet.alerta`
-- Guia indexável: `https://home.antibetalerta.com/como-bloquear-sites-de-apostas/`
+- Central de guias: configuração, funcionamento, parceiro de apoio, privacidade, autoexclusão, ajuda, FAQ, autoria, imprensa e atualizações.
 
 ## Hierarquia da página
 
@@ -39,6 +39,12 @@
 | Privacidade detalhada | `https://privacidade.antibetalerta.com/` |
 | Distribuição do aplicativo | Google Play Store |
 | Orientação sobre proteção em camadas | `como-bloquear-sites-de-apostas/index.html` |
+| Configuração e telas reais | `como-configurar-antibet-alerta/index.html` |
+| Uso do parceiro de apoio | `parceiro-de-apoio/index.html` |
+| Privacidade e Acessibilidade | `privacidade-e-seguranca/index.html` |
+| Autoexclusão oficial | `autoexclusao-de-apostas/index.html` e fontes do Gov.br |
+| Canais de cuidado | `ajuda-para-parar-de-apostar/index.html` e fontes do Ministério da Saúde e CVV |
+| Autoria e história | `sobre/index.html` |
 
 ## Entidades declaradas no JSON-LD
 

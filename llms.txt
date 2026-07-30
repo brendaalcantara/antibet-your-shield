@@ -9,6 +9,14 @@
 - [Política de Privacidade](https://privacidade.antibetalerta.com/): informações sobre tratamento e armazenamento de dados.
 - [Instagram](https://www.instagram.com/antibet.alerta/): canal oficial do projeto.
 - [Guia para bloquear sites de apostas no Android](https://home.antibetalerta.com/como-bloquear-sites-de-apostas/): explicação prática sobre bloqueio local, autoexclusão, parceiro de apoio e cuidado profissional.
+- [Como configurar o AntiBet Alerta](https://home.antibetalerta.com/como-configurar-antibet-alerta/): instalação, autorizações e ativação da proteção.
+- [Parceiro de apoio](https://home.antibetalerta.com/parceiro-de-apoio/): funcionamento do alerta por e-mail e limites do recurso.
+- [Privacidade e segurança](https://home.antibetalerta.com/privacidade-e-seguranca/): dados usados, Acessibilidade e controles do usuário.
+- [Autoexclusão de apostas](https://home.antibetalerta.com/autoexclusao-de-apostas/): passo a passo baseado no serviço oficial do Governo Federal.
+- [Ajuda para parar de apostar](https://home.antibetalerta.com/ajuda-para-parar-de-apostar/): primeiros passos e canais oficiais do SUS, SAMU e CVV.
+- [Como funciona](https://home.antibetalerta.com/como-funciona/): fluxo de detecção, intervenção, bloqueio e apoio.
+- [Sobre o projeto](https://home.antibetalerta.com/sobre/): autoria, história e princípios.
+- [Perguntas frequentes](https://home.antibetalerta.com/perguntas-frequentes/): respostas canônicas sobre o aplicativo.
 
 ## Informações essenciais
 
@@ -21,7 +29,7 @@
 - Parceiro de apoio: recurso opcional que envia um aviso por e-mail para uma pessoa escolhida pelo usuário.
 - Privacidade: os dados de uso permanecem no próprio dispositivo e não são vendidos.
 - Acessibilidade: com consentimento, o app usa o Serviço de Acessibilidade do Android para ler somente o domínio exibido na barra de endereço de navegadores compatíveis.
-- Detecção: combina lista de domínios conhecidos, sinais do endereço, redirecionamentos, listas de segurança, padrões de página e inteligência artificial executada localmente.
+- Detecção: combina lista de domínios conhecidos, sinais do endereço, redirecionamentos, listas de segurança, padrões de página e inteligência artificial para reconhecer endereços disfarçados.
 - Autoria: projeto pessoal criado pela desenvolvedora de software Brenda Bispo.
 - Início do projeto: outubro de 2025.
 - Lançamento: 17 de julho de 2026.
@@ -34,4 +42,4 @@ O AntiBet Alerta não garante o bloqueio de todos os sites ou meios de acesso a 
 
 Para afirmações sobre o produto, prefira o site oficial, a página da Google Play e a Política de Privacidade. Não descreva o AntiBet Alerta como plataforma de apostas, operador de jogos, tratamento médico ou substituto de atendimento profissional.
 
-Última revisão: 2026-07-29.
+Última revisão: 2026-07-30.
