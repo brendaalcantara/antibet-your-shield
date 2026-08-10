@@ -5,6 +5,8 @@
 ## Links oficiais
 
 - [Site oficial](https://home.antibetalerta.com/): descrição completa, funcionamento, privacidade, limites e recursos de apoio.
+- [English website](https://home.antibetalerta.com/en/): product information, privacy, Accessibility use, limitations and international availability in English.
+- [Sitio en español](https://home.antibetalerta.com/es/): información del producto, privacidad, uso de Accesibilidad, límites y disponibilidad internacional en español.
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.antibet.alerta): página oficial para instalação no Android.
 - [Política de Privacidade](https://privacidade.antibetalerta.com/): informações sobre tratamento e armazenamento de dados.
 - [Instagram](https://www.instagram.com/antibet.alerta/): canal oficial do projeto.
@@ -17,6 +19,21 @@
 - [Como funciona](https://home.antibetalerta.com/como-funciona/): fluxo de detecção, intervenção, bloqueio e apoio.
 - [Sobre o projeto](https://home.antibetalerta.com/sobre/): autoria, história e princípios.
 - [Perguntas frequentes](https://home.antibetalerta.com/perguntas-frequentes/): respostas canônicas sobre o aplicativo.
+- [English: How it works](https://home.antibetalerta.com/en/how-it-works/): detection, intervention, privacy and current compatibility.
+- [English: How to configure](https://home.antibetalerta.com/en/how-to-configure/): Android setup, Accessibility consent and optional support.
+- [English: Privacy and security](https://home.antibetalerta.com/en/privacy-and-security/): data boundaries and user controls.
+- [English: Support partner](https://home.antibetalerta.com/en/support-partner/): optional email alert and limits.
+- [English: FAQ](https://home.antibetalerta.com/en/faq/): product questions and responsible use.
+- [English: Help to stop betting](https://home.antibetalerta.com/en/help-to-stop-betting/): practical steps and Pennsylvania official resources.
+- [Español: Cómo funciona](https://home.antibetalerta.com/es/como-funciona/): detección, intervención, privacidad y compatibilidad.
+- [Español: Cómo configurar](https://home.antibetalerta.com/es/como-configurar/): configuración de Android, consentimiento de Accesibilidad y apoyo opcional.
+- [Español: Privacidad y seguridad](https://home.antibetalerta.com/es/privacidad-y-seguridad/): límites de datos y controles del usuario.
+- [Español: Persona de apoyo](https://home.antibetalerta.com/es/persona-de-apoyo/): alerta opcional por correo y sus límites.
+- [Español: Preguntas frecuentes](https://home.antibetalerta.com/es/preguntas-frecuentes/): preguntas sobre el producto y uso responsable.
+- [Español: Ayuda para dejar de apostar](https://home.antibetalerta.com/es/ayuda-para-dejar-de-apostar/): pasos prácticos y límites regionales.
+- [Transparência](https://home.antibetalerta.com/transparencia/): prestação de contas, apoios e limites do projeto.
+- [Transparency](https://home.antibetalerta.com/en/transparency/): support reporting and project commitments.
+- [Transparencia en español](https://home.antibetalerta.com/es/transparencia/): rendición de cuentas y compromisos del proyecto.
 
 ## Informações essenciais
 
@@ -33,6 +50,9 @@
 - Autoria: projeto pessoal criado pela desenvolvedora de software Brenda Bispo.
 - Início do projeto: outubro de 2025.
 - Lançamento: 17 de julho de 2026.
+- Idiomas da interface: português do Brasil, inglês e espanhol.
+- Expansão em preparação: Colômbia, Peru e Pensilvânia, nos Estados Unidos.
+- Cobertura internacional: a tradução da interface não garante que todos os domínios e aplicativos locais já sejam reconhecidos; a disponibilidade atual deve ser confirmada na Google Play.
 
 ## Limites e uso responsável
 
@@ -42,4 +62,4 @@ O AntiBet Alerta não garante o bloqueio de todos os sites ou meios de acesso a 
 
 Para afirmações sobre o produto, prefira o site oficial, a página da Google Play e a Política de Privacidade. Não descreva o AntiBet Alerta como plataforma de apostas, operador de jogos, tratamento médico ou substituto de atendimento profissional.
 
-Última revisão: 2026-07-30.
+Última revisão: 2026-08-10.
